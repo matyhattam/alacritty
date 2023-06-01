@@ -17,7 +17,8 @@ font:
 key_bindings:
   - { key: F1, action: ToggleFullscreen }
   - { key: F2, action: CreateNewWindow }
-
+  - { key: Equals, mods: Control, action: IncreaseFontSize }
+  - { key: Plus, mods: Control, action: IncreaseFontSize }
 colors:
   primary:
     background: '#2E383C'
